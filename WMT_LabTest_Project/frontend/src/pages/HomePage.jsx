@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { deleteItem, getItems } from "../api/itemApi.js";
-import ItemCard from "../components/ItemCard.jsx";
+import ItemCard from "../components/Itemcard.jsx";
 
 function HomePage() {
   const [items, setItems] = useState([]);
